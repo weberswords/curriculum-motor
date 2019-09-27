@@ -1,1 +1,48 @@
 A place for teachers to put lesson planning and connect to standards
+
+User
+- Name
+- AuthoredLayers[]
+- EditorLayers[]
+- ViewerLayers[]
+- email
+
+Layer
+- author
+- editors[]
+- viewers[]
+- id
+- name
+- dateCreated
+- isArchived
+- dateEdited
+
+Lesson
+- name
+- description
+- layers[]
+- author
+- isSharedPublicly
+- isOnGoogleCalendar
+- id
+- standards[]
+- dateCreated
+- dateEdited
+- teachingDates[]
+- directions
+- reflection
+- assessment
+
+Day
+- date
+- isWeekend
+- isHoliday
+
+Calendar
+- days[]
+
+Standard
+- number
+- description
+- daysTaught
+- lessonsTaught

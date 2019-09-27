@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
+import Calendar from '../DomainObjects/Calendar.js';
 
-class Standard extends Component {
+class CenterPane extends Component {
     constructor(props) {
         super(props);
      }
@@ -8,12 +9,10 @@ class Standard extends Component {
     render() {
         return (
             <Fragment>
-              {this.props.description}
-              {this.props.daysTaught}
-              {this.props.lessonsTaught}
+                <Calendar/>
             </Fragment>
         );
     }
 }
 
-export default Standard;
+export default CenterPane;

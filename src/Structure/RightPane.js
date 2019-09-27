@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
+import Standard from '../DomainObjects/Standard.js';
 
-class Lesson extends Component {
+class RightPane extends Component {
     constructor(props) {
         super(props);
      }
@@ -8,10 +9,10 @@ class Lesson extends Component {
     render() {
         return (
             <Fragment>
-             
+                // forEach standards
             </Fragment>
         );
     }
 }
 
-export default Lesson;
+export default RightPane;

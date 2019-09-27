@@ -5,6 +5,10 @@ class Nav extends Component {
         super(props);
      }
 
+    getUser() {
+    
+    }
+    
     render() {
         return (
             <Fragment>

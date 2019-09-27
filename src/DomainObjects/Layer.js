@@ -1,17 +1,19 @@
 import React, { Component, Fragment } from 'react';
 
-class Day extends Component {
+class Layer extends Component {
     constructor(props) {
         super(props);
      }
 
     render() {
+    const { isExpanded } = this.props;
         return (
             <Fragment>
-             // For each layer render it
+             {this.props.name}
+             {isExpanded ? this.props.description : null}
             </Fragment>
         );
     }
 }
 
-export default Day;
+export default Layer;
